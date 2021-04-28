@@ -1,5 +1,16 @@
 {
-    "github": {
-        "silent": true
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers" : [
+        {
+          "key" : "Permissions-Policy",
+          "value" : "interest-cohort=()"
+        }
+      ]
     }
+  ],
+  "github": {
+    "silent": true
+  }
 }
