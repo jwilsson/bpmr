@@ -5,7 +5,6 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "noEmit": true,
-    "noImplicitOverride": false,
     "resolveJsonModule": true,
   },
   "exclude": [
